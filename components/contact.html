@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+          <a class="logo" href="/index.html">Leandro<span> Machado</span></a>
+          <img
+            id="mobile-cta"
+            class="mobile-menu"
+            src="/assets/images/menu.svg"
+            alt="Open Navigation"
+          />
+          <nav>
+            <img
+              src="/assets/images/exit.svg"
+              alt="exit menu"
+              id="mobile-exit"
+              class="mobile-menu-exit"
+            />
+            <ul class="primary-nav">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/components/about.html">About Me</a></li>
+              <li><a href="/assets/images/Leandro Machado CV.pdf" download>Resume</a>
+              <li><a href="/components/projects.html">Projects</a></li>
+            </ul>
+            <ul class="secondary-nav">
+              <li class = "go-premium-cta"><a href="/components/contact.html">Contact Me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    <section class="contact-section">
+        <div class="container">
+          <div class="contact-left">
+            <h2>Contact</h2>
+  
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+  
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" />
+  
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="This is a sample contact form without the use of API's. Please contact me direcly using my email 'machadoleandro98@gmail.com' or message me on my socials in my 'About Me' section!"
+                cols="30"
+                rows="10"
+              ></textarea>
+  
+              <input
+                type="submit"
+                class="send-message-cta"
+                value="Send message"
+              />
+            </form>
+          </div>
+          <div class="contact-right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.27742426618!2d-111.99831265731837!3d33.39204596056655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1657924083816!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <script src="/assets/javascript/script.js"></script>
+</body>
+</html>
